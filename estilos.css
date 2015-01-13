@@ -1,0 +1,30 @@
+
+body{
+
+	background: linear-gradient(#242424, #575757, #242424);
+
+  	/*background-color: #242424;*/
+
+}
+
+.page-header{
+
+	margin-top: 10;
+	margin-left: 10;
+	margin-right: 10;
+	margin-bottom: 20;
+	padding: 5;
+	background: #0F0F0F ;
+	border-color:#0F0F0F;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+
+}
+
+.panel{
+	color : #2CAE00;
+	background-color:transparent;
+	border-color: transparent;
+	font-size: 20; 
+}
