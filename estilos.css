@@ -1,16 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
 header{
 	width: 100%;
-	height: 80px;
+	height: 150px;
 	left: 0;
 	top: 0;
+	bottom: 0;
 	position: fixed;
-	margin: 0px auto;
+	display: block;
+	margin: 0;
+	z-index: 1;
+
 }
 
 .nav{
-	margin-left: 10;
-	margin-left: 10;
-	position: fixed;
+	margin-left: 5;
+	margin-right: 15;
+	border-radius: 5px;
+	padding: 1;
+	
 }
 
 .page-header{
@@ -25,17 +36,48 @@ header{
     border-radius: 25px;
     color: white;
     text-align: center;
+
 }
 
 body{
+	padding-top: 150px;
 
-	margin: 0px;
-	padding: 0;
-	padding-top: 130px;
 	background: linear-gradient(#242424, #575757, #242424);
 }
 
-section#izquierda{
+div{
+	color: black;
+}
+
+div#izquierda , div#seccion {
+	font-size: 20;
+}
+
+div#izquierda{
+	top:2%;
+	overflow: hidden;
+}
+
+footer{
+	color: black;
+	background: white;
+	width: 100%;
+	height: 30;
+	position: fixed;
+	bottom: 0px;
+
+}
+
+.panel{
+	color : #2CAE00;
+	background-color:transparent;
+	border-color: transparent;
+	font-size: 20;
+	text-align: center; 
+}
+
+/*
+div#izquierda{
 	color: black;
 	float: left;
 	margin-left: 10;
@@ -55,9 +97,9 @@ div#contenido{
 
 }
 
-section#experiencia{
+div#experiencia{
 	color: black;
-	overflow: auto;
+	overflow: hidden;
 	top: 20%;
 	width: 100%;
 	height: 100%;
@@ -65,9 +107,9 @@ section#experiencia{
 	float: right;
 }
 
-section#conocimientos{
+div#conocimientos{
 	color: black;
-	overflow: auto;
+	overflow: hidden;
 	top: 20%;
 	width: 100%;
 	height: 90%;
@@ -75,31 +117,13 @@ section#conocimientos{
 	float: right;
 }
 
-section#otros{
+div#otros{
 	color: black;
-	overflow: auto;
+	overflow: hidden;
 	top: 20%;
 	width: 100%;
 	height: 90%;
 	left: 10%;
 	float: right;
 
-}
-
-footer{
-	color: black;
-	background: white;
-	width: 100%;
-	height: 30;
-	position: fixed;
-	bottom: 0px;
-
-}
-
-.panel{
-	color : #2CAE00;
-	background-color:transparent;
-	border-color: transparent;
-	font-size: 20;
-	text-align: center; 
 }

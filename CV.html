@@ -2,7 +2,7 @@
 <head>
 	<META charset="utf-8">
  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1">
 	
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
@@ -12,7 +12,8 @@
 
 	<title>Felipe Cruz Fabian</title>
 
-	<link href="estilos.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+
 
 </head>
 <body>
@@ -22,29 +23,32 @@
 	  		<h1>Felipe Cruz Fabián</h1> 
 		</div>
 
-		<ul class="nav nav-pills" id="menu">
-	  		<li role="presentation" class="active"><a href="#experiencia">Experiencia Laboral</a></li>
-	  		<li role="presentation" class="active"><a href="#conocimientos">Conocimientos</a></li>
-	  		<li role="presentation" class="active"><a href="#otros">Otros intereses</a></li>
-		</ul>
+		<div class="nav">
+			<ul class="nav nav-pills nav-justified " role="navigation" id="menu">
+				<li role="presentation" class="active"><a href="#home">Home</a></li>
+		  		<li role="presentation" class="active"><a href="#experiencia">Experiencia Laboral</a></li>
+		  		<li role="presentation" class="active"><a href="#conocimientos">Conocimientos</a></li>
+		  		<li role="presentation" class="active"><a href="#otros">Otros intereses</a></li>
+			</ul>
+		</div>
 	</header>
 
-	<section id="izquierda">
+	<a id="home"></a>
+	<div id="izquierda" class="col-xs-50 col-lg-7">
 
-			<!--<p><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Felipe Cruz Fabián</p>-->
 			<h3>Datos Generales</h3>
-			<p><span class="glyphicon glyphicon-home" aria-hidden="true"></span> San Bernabé, Magdalena Contreras</p>
+			<p><span class="glyphicon glyphicon-home" aria-hidden="false"></span> San Bernabé, Magdalena Contreras</p>
 			<p><span class="glyphicon glyphicon-phone" aria-hidden="true"></span> 5540651703</p>
 			<p><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> felipecruzfabian@gmail.com</p>
 
 			<h3>Educación</h3>
 			<p>Ingenieria en Computacion</p>
-			<p>Facultad de Estudios Superiores Aragon UNAM MX</p>
+			<p>Facultad de Estudios Superiores Aragon UNAM MX</p> 
 
-	</section>
+	</div>
 
-<div id="contenido">
-	<section id="experiencia">
+	<a id="experiencia"></a>
+	<div id="seccion" class="col-xs-50 col-lg-7">
 			<h3>Linko</h3>
 				<p>Infraestructura, soporte tecnico y desarrollo
 				<br>21 octubre de 2013 al 13 junio 2014</p>
@@ -68,9 +72,10 @@
 				<br>-Dar apoyo a clientes en la instalación y corrección de errores del sistema SICOSS.
 				<br>-Migración de base de datos, Access a SQL server.
 			</p>
-	</section>
+	</div>
 
-	<section id="conocimientos">
+	<a id="conocimientos"></a>
+	<div id="seccion" class="col-xs-50 col-lg-7">
 			<p>
 				<br>-Lenguaje C
 				<br>-Java
@@ -90,9 +95,10 @@
 				<br>-Conocimientos en ofimática (Microsoft Office, OpenOffice)
 				<br>-Uso avanzado de Internet, buscadores, correo electrónico, etc
 			</p>
-	</section>
+	</div>
 
-	<section id="otros">
+	<a id="otros"></a>
+	<div id="seccion" class="col-xs-50 col-lg-7">
 			<p>
 				<br>-Tocar la guitarra
 				<br>-Papiroflexia
@@ -101,11 +107,12 @@
 				<br>-Biométricos
 				<br>-Seguridad informática.
 			</p>
-	</section>
+	</div>
 
-</div>
+
+
 	<footer>
-		<h4>Hola</h4>
+		<h4>Facebook</h4>
 	</footer>
 
 </body>
