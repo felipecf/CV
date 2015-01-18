@@ -15,21 +15,31 @@ header{
 	z-index: 1;
 }
 
-.navbar-wrapper .navbar .container {
-  width: auto;
+.navbar{
+	background-color: #000000;
+}
+.navbar-brand{
+	font-size: 20;
+}
+
+a#nombre{
+	color: white;
+}
+
+h2 , h3 , p , br{
+	color: black;
+	text-align: justify;
 }
 
 .carousel {
 	width: 100%;
-	background-color: gray;
+	background: linear-gradient(to right, #480002, #9B0004,#480002);
 	margin-bottom: 0px;
 }
 
-
 .item {
-  height: 600;
-  overflow: auto;
-
+	height: 600;
+	overflow: auto;
 }
 
 .carousel-caption{
@@ -38,11 +48,10 @@ header{
 }
 
 .carousel-inner {
-
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  height: 600px;
+  	top: 0;
+  	left: 0;
+  	min-width: 100%;
+  	height: 620px;
 }
 
 footer{
