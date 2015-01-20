@@ -66,20 +66,24 @@ a#nombre{
 
 
 p#twit{
+	display: block;
 	float: left;
 	margin-top: 20;
+	cursor: pointer;
 }
 
 p#face{
 	float: left;
 	margin-top: 20;
 	margin-left: 10;
+	cursor: pointer;
 }
 
 p#github{
 	float: left;
 	margin-top: 20;
-	margin-left: 10;	
+	margin-left: 10;
+	cursor: pointer;	
 }
 
 /*
